@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,700');
+
+
+/* large screen */
+
+@media only screen and (min-device-width: 721px) {
+    body {
+        font-family: 'Crimson Text', serif;
+        font-size: 14pt;
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+        background-color: cornsilk;
+    }
+
+    h1 {
+        font-size: 3em;
+        margin-bottom: 0em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+        margin-bottom: 0em;
+    }
+
+    p {
+        margin-top: 0em;
+        margin-bottom: 1em;
+    }
+
+    .subtitle {
+        margin-top: 0em;
+        margin-bottom: 1em;
+        font-size: 1.5em;
+    }
+
+    .bold {
+        font-weight: 700;
+    }
+
+    a.achievement {
+        font-weight: 700;
+        color: #4449AD;
+    }
+
+    .jumpdown {
+    	display: none;
+        font-weight: 700;
+    	text-decoration-line: none;
+    }
+
+
+    #headshot {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+        float: right;
+        margin-bottom: 10px;
+    }
+}
+
+/* mobile */
+@media only screen and (max-device-width: 720px) {
+    body {
+        font-family: 'Crimson Text', serif;
+        font-size: 48pt;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: cornsilk;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        margin-bottom: 0em;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.25em;
+        margin-bottom: 0em;
+    }
+
+    p {
+        margin-top: 0em;
+        margin-bottom: 1em;
+    }
+
+    .subtitle {
+        margin-top: 0em;
+        margin-bottom: 1em;
+        font-size: 1.25em;
+        text-align: center;
+    }
+
+    .bold {
+        font-weight: 700;
+    }
+
+    a.achievement {
+        font-weight: 700;
+        color: #4449AD;
+    }
+
+    .jumpdown {
+        font-weight: 700;
+    	text-decoration-line: none;
+    	text-align: center;
+    	font-size: .8em;
+    }
+
+    #headshot {
+    	display: block;
+        width: 400px;
+        height: 400px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+        margin-top: 25px;
+        margin-bottom: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
