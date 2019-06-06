@@ -49,6 +49,20 @@
     	text-decoration-line: none;
     }
 
+    #contacts {
+        float: right;
+        margin-left: 20px;
+        margin-bottom: 60px;
+    }
+
+    #small-contacts {
+        display: none;
+    }
+
+    p.contact {
+        margin-bottom: 0;
+        text-align: center;
+    }
 
     #headshot {
         width: 200px;
@@ -56,7 +70,6 @@
         position: relative;
         overflow: hidden;
         border-radius: 50%;
-        float: right;
         margin-bottom: 10px;
     }
 }
@@ -90,7 +103,6 @@
 
     .subtitle {
         margin-top: 0em;
-        margin-bottom: 1em;
         font-size: 1.25em;
         text-align: center;
     }
@@ -110,6 +122,22 @@
     	text-align: center;
     	font-size: .8em;
     }
+
+    .contact {
+        display: none;
+    }
+
+    #small-contacts {
+        text-align: center;
+        margin-left: 20px;
+        margin-bottom: 0px;
+    }
+
+    p.small-contact {
+        margin-bottom: 0;
+        text-align: center;
+    }
+
 
     #headshot {
     	display: block;
